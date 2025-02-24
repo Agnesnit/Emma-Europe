@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 0 20px;
+}
+
+
+header {
+    position: relative;
+    text-align: center;
+    padding: 10px 20px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.header-title h1 {
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+
+.header-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.logo {
+    width: 50px;
+    margin-top: 5px;
+}
+
+
+.hamburger {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 100;
+}
+
+
+.hamburger span {
+    height: 3px;
+    background: #333;
+    border-radius: 2px;
+}
+
+
+.nav-menu {
+    display: none;
+    background: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+
+
+.nav-menu ul {
+    list-style: none;
+}
+
+
+.nav-menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.nav-menu.active {
+    display: block;
+}
+
+
+.customer-service section {
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.customer-service h2 {
+    margin-bottom: 15px;
+}
+
+
+.customer-service p {
+    margin: 0 20px 15px 20px;
+    line-height: 1.6;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    background: white;
+    font-family: Georgia, serif;
+}
+
+
+@media (min-width: 768px) {
+
+
+    .hamburger {
+        display: none;
+    }
+
+
+    header {
+        padding: 20px;
+    }
+
+
+    .header-title h1 {
+        font-size: 4rem;
+    }
+
+
+    .logo {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        margin-top: 0;
+    }
+
+
+    .nav-menu {
+        display: block;
+        position: static;
+        text-align: right;
+        margin-top: -40px;
+        margin-right: 20px;
+        border: none;
+        background: none;
+    }
+
+
+    .nav-menu ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+    .nav-menu li {
+        margin-left: 20px;
+    }
+}
