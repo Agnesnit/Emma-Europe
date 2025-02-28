@@ -20,6 +20,8 @@ header {
 .header-title h1 {
     font-size: 2.5rem;
     font-style: italic;
+    font-family: Georgia, serif;
+    padding: 20px;
 }
 
 .header-title {
@@ -28,8 +30,9 @@ header {
 }
 
 .logo {
-    width: 50px;
-    margin-top: 5px;
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .hamburger {
@@ -60,6 +63,7 @@ header {
     left: 0;
     width: 100%;
     border-top: 1px solid #ccc;
+    font-family: Georgia, serif;
 }
 
 .nav-menu ul {
@@ -82,20 +86,31 @@ header {
     display: block;
 }
 
+.subtitle {
+    text-align: center;
+    padding-top: 50px;
+    font-family: Georgia, serif;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
 .product-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    padding: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 80px;
+    padding-top: 100px;
 }
 
 .product-cell {
     text-align: center;
+    font-family: Georgia, serif;
 }
 
 .product-cell img {
     width: 100%;
     height: auto;
+    margin-bottom: 15px;
 }
 
 footer {
@@ -148,6 +163,6 @@ footer {
     }
 
     .product-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
