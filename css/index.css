@@ -90,8 +90,8 @@ header {
     text-align: center;
     padding-top: 50px;
     font-family: Georgia, serif;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .product-grid {
@@ -160,6 +160,11 @@ footer {
 
     .nav-menu li {
         margin-left: 20px;
+    }
+
+    .subtitle {
+        padding-left: 300px;
+        padding-right: 300px;
     }
 
     .product-grid {
