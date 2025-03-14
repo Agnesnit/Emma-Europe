@@ -20,6 +20,8 @@ header {
 .header-title h1 {
     font-size: 2.5rem;
     font-style: italic;
+    margin-bottom: 10px;
+    font-family: Georgia, serif;
 }
 
 .header-title {
@@ -71,6 +73,7 @@ header {
     padding: 10px;
     text-decoration: none;
     color: #333;
+    font-family: Georgia, serif;
 }
 
 .nav-menu.active {
@@ -90,10 +93,12 @@ header {
 .item-details h2 {
     margin-top: 15px;
     font-size: 1.5rem;
+    font-family: Georgia, serif;
 }
 
 .item-details p {
     margin: 5px 0;
+    font-family: Georgia, serif;
 }
 
 .buy-button {

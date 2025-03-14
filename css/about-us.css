@@ -22,6 +22,7 @@ header {
     font-size: 2.5rem;
     font-style: italic;
     margin-bottom: 10px;
+    font-family: Georgia, serif;
 }
 
 .header-title {
@@ -73,10 +74,18 @@ header {
     padding: 10px 20px;
     text-decoration: none;
     color: #333;
+    font-family: Georgia, serif;
 }
 
 .nav-menu.active {
     display: block;
+}
+
+.about-us .hero-image {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.8rem;
+    font-family: Georgia, serif;
 }
 
 .about-us .hero-image img {
@@ -89,6 +98,7 @@ header {
     padding: 20px;
     margin-bottom: 30px;
     border-bottom: 1px solid #ccc;
+    font-family: Georgia, serif;
 }
 
 .about-us h2 {
@@ -147,5 +157,10 @@ footer {
 
     .nav-menu li {
         margin-left: 20px;
+    }
+
+    .about-us h2 {
+        font-size: 2.5rem;
+        padding: 40px 0;
     }
 }
