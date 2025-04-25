@@ -82,11 +82,13 @@ header {
     display: block;
 }
 
+/* Bannerbild – tar upp hela bredden och visas som block */
 .banner {
     width: 100%;
     display: block;
 }
 
+/* Underrubrik under banner, centrerad med padding runt */
 .subtitle {
     text-align: center;
     padding-top: 50px;
@@ -95,6 +97,7 @@ header {
     padding-right: 20px;
 }
 
+/* Grid för produkterna – 2 kolumner på mobil, med mellanrum */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -103,6 +106,7 @@ header {
     padding-top: 100px;
 }
 
+/* Varje produktcell – centrerad text och klassiskt typsnitt */
 .product-cell {
     text-align: center;
     font-family: Georgia, serif;
@@ -123,6 +127,7 @@ footer {
     font-family: Georgia, serif;
 }
 
+/* Responsiv design för skärmar som är 768px eller bredare */
 @media (min-width: 768px) {
 
     .hamburger {
@@ -133,6 +138,7 @@ footer {
         padding: 20px;
     }
 
+    /* Gör rubriken större på desktop */
     .header-title h1 {
         font-size: 4rem;
     }
@@ -167,7 +173,7 @@ footer {
         padding-left: 300px;
         padding-right: 300px;
     }
-
+    /* Visa tre produkter i rad istället för två */
     .product-grid {
         grid-template-columns: repeat(3, 1fr);
     }

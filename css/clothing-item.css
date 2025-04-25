@@ -101,13 +101,39 @@ header {
     font-family: Georgia, serif;
 }
 
+/* size-knapparna, färg, margin, inline block, mm */
+.size-button {
+    color: #000;
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Köp-knappen, färg, margin, inline block, mm */
 .buy-button {
     background: #ffcccb;
     color: #000;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     display: inline-block;
     cursor: pointer;
+}
+
+.information h3{
+    text-align: left;
+    padding-top: 25px;
+    font-family: Georgia, serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.information p {
+    text-align: left;
+    padding-top: 10px;
+    font-family: Georgia, serif;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 footer {
@@ -119,6 +145,7 @@ footer {
     font-family: Georgia, serif;
 }
 
+/* Anpassningar för större skärmar (desktop) */
 @media (min-width: 768px) {
 
     .hamburger {
@@ -133,6 +160,7 @@ footer {
         font-size: 4rem;
     }
 
+    /* Flytta logon till övre högra hörnet */
     .logo {
         position: absolute;
         top: 10px;
@@ -140,6 +168,7 @@ footer {
         margin-top: 0;
     }
 
+    /* Visa menyn alltid på desktop och gör den horisontell */
     .nav-menu {
         display: block;
         position: static;
@@ -150,6 +179,12 @@ footer {
         background: none;
     }
 
+    .information {
+     padding-left: 100px;
+     padding-right: 100px;
+    }
+    
+    /* Gör menyalternativen till en rad */
     .nav-menu ul {
         display: flex;
         justify-content: flex-end;

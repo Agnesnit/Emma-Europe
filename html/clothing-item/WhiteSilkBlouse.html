@@ -19,7 +19,7 @@
             <h1>Emma</h1>
             <img src="/media/logo.png" alt="Logo" class="logo">
         </div>
-        <nav id="nav-menu" class="nav-menu">
+        <nav id="nav-menu" class="nav-menu"><!-- Navigationsmeny (dyker upp när hamburgermenyn klickas) -->
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../customer-service.html">Customer Service</a></li>
@@ -35,7 +35,21 @@
         <div class="item-details">
             <h2>White Silk Blouse</h2>
             <p>315 kr</p>
-            <div class="buy-button">Buy</div>
+            <button class="size-button">S</button><!-- "Fake" size button. Behöver back-end för att fungera -->
+            <button class="size-button">M</button>
+            <button class="size-button">L</button>
+            <button class="buy-button">Buy</button><!-- "Fake" buy button. Behöver back-end för att fungera -->
+            <div class="information">
+                <h3>Description</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda id repellendus facere corrupti alias quaerat
+                    esse praesentium? Praesentium, amet accusantium? Quae ratione dolorem cumque doloremque quod. Illo quia atque
+                    natus?
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis soluta asperiores vitae cupiditate
+                    architecto consequuntur tempore, eius labore sequi modi sed. Labore nulla omnis ipsa alias? Labore, quidem
+                    dolores.
+                </p>
+            </div>
         </div>
     </main>
 
@@ -43,7 +57,7 @@
         <p>Privacy Notice © 2025, Emma Europe</p>
     </footer>
 
-    <script src="/js/clothing-item.js"></script>
+    <script src="/js/clothing-item.js"></script><!-- Länk till java som hanterar hamburgermenyn -->
 </body>
 
 </html>
